@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 100px;
+}
+
+header{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 64px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    max-width: 940px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+form input {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    padding: 8px;
+}
+
+input:focus {
+    outline-color: red;
+}
+
+form button {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: rgb(10, 12, 139);
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 3px solid #000;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.lower {
+    text-transform: capitalize;
+}
